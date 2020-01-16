@@ -6,5 +6,4 @@ router.get('/login',async ctx => {
     ctx.body = 'admin'
 })
 
-
 module.exports = router.routes()

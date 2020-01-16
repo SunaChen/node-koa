@@ -15,7 +15,5 @@ for (let i=0;i<KEY_COUNT;i++){
 
     arr.push(key)
 }
-
 fs.writeFileSync('.key',arr.join('\n'))
 
-console.log(`gengero ${KEY_COUNT} keys`)

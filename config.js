@@ -4,3 +4,4 @@ module.exports = {
     DB_PASSWORD:'123456',
     DB_NAME:'user'
 }
+

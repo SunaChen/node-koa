@@ -6,5 +6,4 @@ router.get('news',async ctx => {
 })
 
 
-
 module.exports = router.routes()

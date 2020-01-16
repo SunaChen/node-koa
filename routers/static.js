@@ -9,7 +9,6 @@ module.exports = function (router,options) {
     options.html = options.html || 30
     options.styles = options.styles || 7
 
-
     router.all(/((\.jpg)|(\.png)|(\.gif))$/i,static('./static',{
         maxage:options.image*8640*1000
     }))

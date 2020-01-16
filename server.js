@@ -19,7 +19,6 @@ server.use(body({
     uploadDir:path.resolve(__dirname,'./static/upload')
 }))
 
-
 //数据库
 server.context.db = require('./libs/database')
 
