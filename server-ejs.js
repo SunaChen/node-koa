@@ -16,7 +16,9 @@ ejs(server,{
 })
 
 server.use(async ctx => {
-    await ctx.render('1',{  //渲染的文件，渲染的数据
+    await ctx.render('2',{  //渲染的文件，渲染的数据
         arr:[1,2,3,4,5]
     })
 })
+
+
