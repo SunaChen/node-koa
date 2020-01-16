@@ -2,7 +2,6 @@ const Koa = require('koa')
 const Router = require('koa-router');
 const path = require('path')
 const ejs = require('koa-ejs')
-
 let server = new Koa
 
 server.listen(8080)
