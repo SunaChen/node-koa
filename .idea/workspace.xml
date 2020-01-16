@@ -197,12 +197,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579158054248</updated>
+<<<<<<< HEAD
       <workItem from="1579158057562" duration="9321000" />
+=======
+      <workItem from="1579158057562" duration="9001000" />
+>>>>>>> f54b33dc1560425a5935af2a3ef3b02d3fa30423
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="9321000" />
+=======
+    <option name="totallyTimeSpent" value="9001000" />
+>>>>>>> f54b33dc1560425a5935af2a3ef3b02d3fa30423
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="957" extended-state="6" />

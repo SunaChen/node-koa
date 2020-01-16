@@ -29,6 +29,16 @@ server.use(session({
     renew:true
 },server))
 
+
+//错误统一处理
+router.use(async (ctx,next )=> {
+    try{
+        await next()
+    }catch (e) {
+        ctx.state = 500
+        ctx.body = '出错了！！'
+    }
+})
 router.use('/admin',require('./routers/admin'))
 router.use('/',require('./routers/www'))
 router.use('/api',require('./routers/api'))
