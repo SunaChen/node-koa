@@ -46,8 +46,6 @@ router.post('/login',async ctx => {
     }
 
 })
-
-
 //权限控制
 router.all("*",async (ctx,next) => {
     let {HTTP_ROOT} =ctx.config
@@ -57,6 +55,8 @@ router.all("*",async (ctx,next) => {
         next()
     }
 })
+
+
 
 router.get('/banner',async ctx => {
     ctx.body = 'banner'
