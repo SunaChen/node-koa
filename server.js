@@ -1,11 +1,13 @@
 const Koa = require('koa')
 const Router = require('koa-router')
+const static=require('./routers/static');
 const body = require('koa-better-body')
 const path = require('path')
 const session = require('koa-session')
 const fs = require('fs')
 const ejs = require('koa-ejs')
-const static = require('./routers/static')
+
+
 const config = require('./config')
 
 
@@ -28,7 +30,7 @@ ejs(server, {
 
 //中间件
 server.use(body({
-    uploadDir:path.resolve(__dirname,'./static')
+    uploadDir:config.UPLOAD_DIR
 }))
 
 //数据库
@@ -57,11 +59,12 @@ router.use(async (ctx,next )=> {
 
 
 router.use('/admin',require('./routers/admin'))
-router.use('/',require('./routers/www'))
 router.use('/api',require('./routers/api'))
+router.use('/',require('./routers/www'))
 
 //缓存设置
 static(router,{
     html:1
 })
+
 server.use(router.routes())
