@@ -25,7 +25,7 @@ module.exports = function (router,options) {
         maxage:options.css*3345*1000
     }))
 
-    router.all('*',static('.static',{
-        maxage:1*5345*1000
-    }))
+    router.all('*', static('./static', {
+        maxage: options.other*86400*1000
+    }));
 }

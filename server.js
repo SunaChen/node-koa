@@ -63,8 +63,6 @@ router.use('/api',require('./routers/api'))
 router.use('/',require('./routers/www'))
 
 //缓存设置
-static(router,{
-    html:1
-})
+static(router);
 
 server.use(router.routes())
