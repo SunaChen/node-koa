@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8434b438-68ed-4bd3-88e6-28e1c092949b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/admin/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/admin/article.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/admin/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/admin/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/admin/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/admin/catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/admin/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/static.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/static.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/www/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/www/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/upload_1d1355b6ce7814326197f55ad7ad1c7d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/upload_70d4413da7e86e16132e04aefe98cc85" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/upload_df884c734c0928ee0f572540f112f48b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/upload_f818e636eafb6b3e0bc6bfa7df862543" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/table.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/table.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/www/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/template/www/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,8 +50,11 @@
       <file leaf-file-name="banner.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routers/admin/banner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="369">
+              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+              <folding>
+                <element signature="e#815#1421#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +62,8 @@
       <file leaf-file-name="catalog.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers/admin/catalog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2318">
-              <caret line="122" column="19" lean-forward="true" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+            <state relative-caret-position="-141">
+              <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -80,7 +71,7 @@
       <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers/admin/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1171">
+            <state relative-caret-position="114">
               <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
@@ -132,9 +123,9 @@
         <option value="$PROJECT_DIR$/routers/static.js" />
         <option value="$PROJECT_DIR$/routers/www/index.js" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/routers/admin/catalog.js" />
         <option value="$PROJECT_DIR$/routers/admin/article.js" />
         <option value="$PROJECT_DIR$/template/admin/table.ejs" />
+        <option value="$PROJECT_DIR$/routers/admin/catalog.js" />
         <option value="$PROJECT_DIR$/routers/admin/banner.js" />
       </list>
     </option>
@@ -287,15 +278,16 @@
       <workItem from="1579343645437" duration="10011000" />
       <workItem from="1579516684553" duration="225000" />
       <workItem from="1580361159219" duration="602000" />
-      <workItem from="1580364379598" duration="21836000" />
+      <workItem from="1580364379598" duration="22367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32674000" />
+    <option name="totallyTimeSpent" value="33205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="957" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1790235" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -597,24 +589,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/admin/catalog.js">
+    <entry file="file://$PROJECT_DIR$/routers/admin/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="122" column="19" lean-forward="true" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+        <state relative-caret-position="114">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/admin/article.js">
+    <entry file="file://$PROJECT_DIR$/routers/admin/catalog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1171">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="-141">
+          <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routers/admin/banner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="369">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+          <folding>
+            <element signature="e#815#1421#0" />
+          </folding>
         </state>
       </provider>
     </entry>

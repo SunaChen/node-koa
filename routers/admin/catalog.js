@@ -61,17 +61,23 @@ router.get('/delete/:id', async ctx => {
     let {id} = ctx.params
     let {UPLOAD_DIR,HTTP_ROOT} = ctx.config
 
-    //let data = await ctx.db.query(`SELECT * FROM ${table} WHERE ID = ?`,[id]);
+    let data = await ctx.db.query(`SELECT * FROM ${table} WHERE ID = ?`,[id]);
 
 
-    //ctx.assert(data.length,400,'no data')
+    ctx.assert(data.length,400,'no data')
 
     /*    if (data.length = 0){
             ctx.body = '对不起，没有数据'
         }*/
 
-   // let row = data[0]
-    //await common.unlink(path.resolve(UPLOAD_DIR,row.src)) //删除本地文件
+    let row = data[0]
+    fields.forEach(async({name,type}) => {
+        if (type == 'file'){
+            await common.unlink(path.resolve(UPLOAD_DIR,row.src)) //删除本地文件
+        }
+    })
+
+
     await ctx.db.query(`DELETE FROM ${table} WHERE ID = ?`,[id]); //删除数据库中的文件
 
     ctx.redirect(`${HTTP_ROOT}/admin/${page_type}`)
